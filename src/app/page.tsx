@@ -19,7 +19,7 @@ export default function Home() {
                 most legendary moments.
               </p>
               <button className="bg-red-500 cursor-pointer text-white text-2xl font-medium px-4 py-2 rounded shadow hover:bg-red-600 transition">
-                <a href="/races">Browse All Races</a>
+                <a href="/dashboard">Browse All Races</a>
               </button>
             </div>
           </header>

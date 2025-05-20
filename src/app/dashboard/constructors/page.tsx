@@ -13,7 +13,7 @@ export default function ConstructorsPage() {
           throw new Error("Network response was not ok");
         }
         const data = await response.json();
-        console.log("Constructors data:", data);
+        // console.log("Constructors data:", data);
         setConstructors(data);
       } catch (error) {
         console.error("Error fetching data:", error);

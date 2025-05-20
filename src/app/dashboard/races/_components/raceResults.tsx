@@ -34,7 +34,7 @@ export default function RaceResults({
 }) {
   // console.log("RaceResults", results);
   //console.log("Race", race);
-  console.log("Qualifying", qualifying);
+  // console.log("Qualifying", qualifying);
   //console.log("SprintRaceResults", sprintRaceResults);
 
   const formatDateTime = (date: string, time: string) => {

@@ -34,7 +34,6 @@ export default function RacesPage() {
     const fetchYears = async () => {
       const response = await fetch("/api/years/getAllYears");
       const data = await response.json();
-      console.log(data);
       setYears(data);
     };
 
@@ -48,7 +47,6 @@ export default function RacesPage() {
           "/api/races/getRacesByYear/" + selectedYear
         );
         const data = await response.json();
-        console.log(data);
         setRaces(data);
       };
       fetchRaces();
@@ -70,7 +68,6 @@ export default function RacesPage() {
           "/api/qualifying/getQualifyingByRace/" + selectedRace
         );
         const data = await response.json();
-        console.log(data);
         setQualifying(data);
       };
 
