@@ -6,6 +6,7 @@
 @theme {
   --color-customprimarylight: #f6f6f6;
   --color-customprimarydark: #1a1a1a;
+  --color-navbardark: #0A0A0A;
 }
 
 @theme inline {

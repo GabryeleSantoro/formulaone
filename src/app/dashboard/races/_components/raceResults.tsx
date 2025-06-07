@@ -32,11 +32,6 @@ export default function RaceResults({
   qualifying: Qualifying[];
   sprintRaceResults: SprintResults[];
 }) {
-  // console.log("RaceResults", results);
-  //console.log("Race", race);
-  // console.log("Qualifying", qualifying);
-  //console.log("SprintRaceResults", sprintRaceResults);
-
   const formatDateTime = (date: string, time: string) => {
     const d = new Date(date);
 
@@ -126,7 +121,11 @@ export default function RaceResults({
                                   .sort((a, b) => a.q1.localeCompare(b.q1))[0];
 
                                 return fastestQ1
-                                  ? `${fastestQ1.q1} - ${fastestQ1.driverId.code}`
+                                  ? `${fastestQ1.q1} - ${
+                                      fastestQ1.driverId.code !== "\\N"
+                                        ? fastestQ1.driverId.code
+                                        : `${fastestQ1.driverId.forename} ${fastestQ1.driverId.surname}`
+                                    }`
                                   : "No times set";
                               })()}
                             </span>

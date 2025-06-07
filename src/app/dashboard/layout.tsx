@@ -2,12 +2,8 @@
 import "../globals.css";
 
 import { ThemeProvider } from "@/components/theme-provider";
-// import { usePathname } from "next/navigation";
 
 import { cookies, headers } from "next/headers";
-import { parse } from "url";
-
-// import { useEffect, useState } from "react";
 
 import {
   Popover,
@@ -39,7 +35,7 @@ export default async function Layout({
       enableSystem
       disableTransitionOnChange
     >
-      <nav className="bg-white dark:bg-black border-gray-200 py-2.5 sticky top-0 z-50">
+      <nav className="bg-white dark:bg-navbardark border-gray-200 py-2.5 sticky top-0 z-50">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="#" className="flex items-center order-0">
             <div className="text-4xl font-bold text-black dark:text-white">
@@ -57,7 +53,7 @@ export default async function Layout({
                   href="/"
                   className={`block py-2 pl-3 pr-4 ${
                     isHome
-                      ? "rounded lg:bg-transparent dark:text-white text-black font-bold border-b border-red-700"
+                      ? "lg:bg-transparent dark:text-white text-black font-bold border-b border-red-700"
                       : "text-gray-400 border-b hover:bg-gray-50 lg:hover:bg-transparent"
                   }`}
                 >
@@ -69,7 +65,7 @@ export default async function Layout({
                   href="/dashboard/races"
                   className={`block py-2 pl-3 pr-4 ${
                     isRaces
-                      ? "rounded lg:bg-transparent dark:text-white text-black font-bold border-b border-red-700"
+                      ? "lg:bg-transparent dark:text-white text-black font-bold border-b border-red-700"
                       : "text-gray-400 border-b hover:bg-gray-50 lg:hover:bg-transparent"
                   } `}
                 >
@@ -198,7 +194,7 @@ export default async function Layout({
           </div>
         </div>
       </nav>
-      <div className="p-8">{children}</div>
+      <div>{children}</div>
     </ThemeProvider>
   );
 }

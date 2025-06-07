@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, use } from "react";
+import React, { useState, useEffect } from "react";
 
 import {
   Select,
@@ -93,7 +93,7 @@ export default function RacesPage() {
 
   return (
     <>
-      <div className="container mx-auto h-full w-full sm:p-10">
+      <div className="container mx-auto h-full w-full p-4 md:p-6">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">Formula 1 Race Results</h1>
           <p className="text-gray-600">

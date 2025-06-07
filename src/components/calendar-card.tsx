@@ -46,7 +46,10 @@ const F1CalendarCard = () => {
         {races.map((race, index) => {
           const isNext = index === nextRaceIndex;
           const country = race.Circuit.Location.country;
-          const code = countryNameToCode[country.replace(/\s/g, "")] || "UN";
+          const code =
+            countryNameToCode[
+              country.replace(/\s/g, "") as keyof typeof countryNameToCode
+            ] || "UN";
           const flagUrl = `https://flagcdn.com/24x18/${code.toLowerCase()}.png`;
 
           return (

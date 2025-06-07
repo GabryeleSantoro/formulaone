@@ -41,7 +41,7 @@ export default async function RootLayout({
           <div className="bg-customprimarylight dark:bg-customprimarydark flex-grow h-full w-full">
             {children}
           </div>
-          <footer className="bg-white dark:bg-black dark:text-white py-4 text-center mt-auto flex flex-row justify-center gap-4 align-center stycky bottom-0">
+          <footer className="bg-white dark:bg-navbardark dark:text-white py-4 text-center mt-auto flex flex-row justify-center gap-4 align-center stycky bottom-0">
             <span className="content-center">Gabriele Santoro@2025</span>
             <ModeToggle />
           </footer>

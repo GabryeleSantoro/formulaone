@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import NextRaceCard from "@/components/next-race";
 import DriverStandingsCard from "@/components/driver-standing";
 import ConstructorStandingsCard from "@/components/constructors-standing";
@@ -15,6 +15,8 @@ export default function Dashboard() {
           Stay updated with the latest Formula 1 standings and race information
         </p>
       </header>
+      <F1CalendarCard />
+
       <div className="grid md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4 justify-center">
         <NextRaceCard />
         <DriverStandingsCard />
