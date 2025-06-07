@@ -3,21 +3,20 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="/Users/gabrielesantoro/bd-project/formulaone/public/images/f1-logo.png" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="https://github.com/user-attachments/assets/d8cba129-785d-45e6-a88c-bacc50898dc7" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # FORMULAONE
 
 <em></em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/GabryeleSantoro/formulaone?style=flat-square&logo=opensourceinitiative&logoColor=white&color=FF4B4B" alt="license">
+<img src="https://img.shields.io/github/license/GabryeleSantoro/formulaone?style=flat-square&logo=MIT&logoColor=white&color=FF4B4B" alt="license">
 <img src="https://img.shields.io/github/last-commit/GabryeleSantoro/formulaone?style=flat-square&logo=git&logoColor=white&color=FF4B4B" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/GabryeleSantoro/formulaone?style=flat-square&color=FF4B4B" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/GabryeleSantoro/formulaone?style=flat-square&color=FF4B4B" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat-square&logo=JSON&logoColor=white" alt="JSON">
 <img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat-square&logo=npm&logoColor=white" alt="npm">
 <img src="https://img.shields.io/badge/Autoprefixer-DD3735.svg?style=flat-square&logo=Autoprefixer&logoColor=white" alt="Autoprefixer">
 <img src="https://img.shields.io/badge/Mongoose-F04D35.svg?style=flat-square&logo=Mongoose&logoColor=white" alt="Mongoose">
@@ -49,17 +48,15 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
 ## Overview
 
-
+FormulaOne is a full-stack web application designed to visualize, manage, and analyze data from the Formula 1 World Championship. Built with Next.js, React, TypeScript, and MongoDB, the platform offers a modern, responsive interface that allows users to explore standings, race results, driver and constructor stats, qualifying sessions, and sprint races — both historical and real-time.
 
 ---
 
@@ -68,16 +65,13 @@
 |      | Component       | Details                              |
 | :--- | :-------------- | :----------------------------------- |
 | ⚙️  | **Architecture**  | <ul><li>Monolithic architecture</li><li>Modular components using Next.js</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>ESLint and Prettier integration for code formatting</li><li>TypeScript type checking</li><li>Unit tests using Jest</li></ul> |
+| 🔩 | **Code Quality**  | <ul><li>ESLint and Prettier integration for code formatting</li><li>TypeScript type checking</li></ul> |
 | 📄 | **Documentation** | <ul><li>Next.js documentation generation using JSDoc</li><li>API documentation using Swagger UI</li></ul> |
 | 🔌 | **Integrations**  | <ul><li>Integration with MongoDB for data storage</li><li>Authentication using Bcrypt and Next Auth</li><li>Real-time updates using WebSockets</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Components are modular and reusable</li><li>Use of class variance authority for type safety</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Unit tests using Jest</li><li>Integration tests using Cypress</li><li>End-to-end tests using Next.js testing library</li></ul> |
 | ⚡️  | **Performance**   | <ul><li>Optimized images using Webpack and ImageOptim</li><li>Use of React Hot Toast for fast updates</li></ul> |
 | 🛡️ | **Security**      | <ul><li>Authentication using Bcrypt and Next Auth</li><li>Input validation using Zod</li><li>Secure data storage using MongoDB</li></ul> |
-| 📦 | **Dependencies**  | <ul><li>Next.js, React, Redux, Webpack, ESLint, Prettier, Jest, Cypress, MongoDB, Bcrypt, Next Auth</li><li>Over 50 dependencies listed in package.json</li></ul> |
-| 🚀 | **Scalability**   | <ul><li>Use of serverless functions for API endpoints</li><li>Load balancing using NGINX</li><li>Auto-scaling using AWS Lambda</li></ul> |
-
+| 📦 | **Dependencies**  | <ul><li>Next.js, React, Redux, Webpack, ESLint, Prettier, Cypress, MongoDB, Bcrypt, Next Auth</li><li>Over 50 dependencies listed in package.json</li></ul> |
 ---
 
 ## Project Structure
@@ -140,10 +134,6 @@
 					<td style='padding: 8px;'>- Configures PostCSS integration with Tailwind CSS<br>- Enables the use of Tailwind utility classes in CSS files through a PostCSS plugin<br>- Simplifies the development process by automating the application of Tailwind styles, allowing developers to focus on writing CSS without manual configuration<br>- Enhances code consistency and maintainability across the project.</td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/package-lock.json'>package-lock.json</a></b></td>
-					<td style='padding: 8px;'>- Provides a robust and customizable UI component library for building complex web applications.<em> Offers a set of pre-built components, including accordions, dialogs, dropdown menus, labels, and popovers, which can be easily integrated into existing projects.</em> Enables developers to create responsive and accessible user interfaces with minimal coding effort.<strong>Project Goals</strong>The primary goal of the <code>formulaone</code> project is to deliver a high-quality UI component library that simplifies web application development and enhances user engagement<br>- By providing a standardized set of components, the project aims to reduce development time and increase productivity for developers working on similar projects.<strong>Target Audience</strong>The <code>formulaone</code> project is designed for web developers who require a robust and customizable UI component library for building complex web applications<br>- This includes:<em> Front-end developers</em> Full-stack developers* Web application architectsBy leveraging the <code>formulaone</code> project, developers can focus on building high-quality user interfaces while minimizing the complexity of UI development.</td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/package.json'>package.json</a></b></td>
 					<td style='padding: 8px;'>- Architects FormulaOne Application**FormulaOne is a comprehensive web application built using Next.js and MongoDB, leveraging the Radix UI library for a seamless user experience<br>- It enables users to manage their racing teams, track performances, and analyze data with ease<br>- The applications core functionality is centered around team management, performance tracking, and data analysis, making it an essential tool for FormulaOne enthusiasts and professionals alike.</td>
 				</tr>
@@ -180,16 +170,8 @@
 				</tr>
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/constructors.ts'>constructors.ts</a></b></td>
-					<td style='padding: 8px;'>- The <code>constructors.ts</code> file provides a centralized mapping of F1 team logos to their respective image URLs<br>- It enables easy access and retrieval of logo data, facilitating the integration of team logos in various applications or projects<br>- This service supports 13 teams across the F1 season, allowing for consistent branding and visual identity.</td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/utils.ts'>utils.ts</a></b></td>
 					<td style='padding: 8px;'>- Provides Utility Functionality**The <code>utils.ts</code> file offers a utility function <code>cn</code>, which merges class names from input values using Tailwind CSSs <code>twMerge</code><br>- This enables concise and consistent styling across the application, simplifying the development process<br>- By providing a standardized way to combine classes, this functionality supports the overall architecture of the project, enhancing maintainability and consistency throughout the codebase.</td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/session.ts'>session.ts</a></b></td>
-					<td style='padding: 8px;'>- Defines Session Data Structure**The <code>session.ts</code> file establishes a crucial data structure for storing user session information, comprising <code>userId</code>, <code>email</code>, <code>iat</code> (issued at), and <code>exp</code> (expiration) timestamps<br>- This interface is fundamental to the projects authentication mechanism, enabling secure storage and retrieval of user session data across the application<br>- It serves as a cornerstone for managing user sessions, ensuring accurate and efficient data exchange throughout the system.</td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/flags.ts'>flags.ts</a></b></td>
@@ -198,10 +180,6 @@
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/db.ts'>db.ts</a></b></td>
 					<td style='padding: 8px;'>- Connects to a MongoDB database using Mongoose, establishing a stable connection upon initialization<br>- The <code>connect</code> function ensures the database is available before proceeding with application logic<br>- It handles errors and provides a centralized point for database interactions, promoting a scalable and maintainable architecture within the project.</td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/GabryeleSantoro/formulaone/blob/master/lib/toast.config.ts'>toast.config.ts</a></b></td>
-					<td style='padding: 8px;'>- Configure Toast Notification System**The <code>toast.config.ts</code> file sets up the configuration for the toast notification system, defining key settings that control its behavior and appearance<br>- It enables or disables notifications, customizes notification styles, and specifies notification timing<br>- This configuration file serves as a central hub for managing toast notifications across the application, ensuring consistency and flexibility in user experience.</td>
 				</tr>
 			</table>
 			<!-- models Submodule -->
@@ -997,14 +975,6 @@ Build formulaone from the source and intsall dependencies:
 
 3. **Install the dependencies:**
 
-<!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![npm][npm-shield]][npm-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [npm-shield]: https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white -->
-	<!-- [npm-link]: https://www.npmjs.com/ -->
-
-	**Using [npm](https://www.npmjs.com/):**
-
 	```sh
 	❯ npm install
 	```
@@ -1015,31 +985,21 @@ Run the project with:
 
 **Using [npm](https://www.npmjs.com/):**
 ```sh
-npm start
+npm run dev
 ```
 
-### Testing
+### Building
 
-Formulaone uses the {__test_framework__} test framework. Run the test suite with:
-
+Build the project with:
 **Using [npm](https://www.npmjs.com/):**
 ```sh
-npm test
+npm run build
 ```
-
----
-
-## Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
 
 ---
 
 ## Contributing
 
-- **💬 [Join the Discussions](https://github.com/GabryeleSantoro/formulaone/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/GabryeleSantoro/formulaone/issues)**: Submit bugs found or log feature requests for the `formulaone` project.
 - **💡 [Submit Pull Requests](https://github.com/GabryeleSantoro/formulaone/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
@@ -1047,6 +1007,7 @@ npm test
 <summary>Contributing Guidelines</summary>
 
 1. **Fork the Repository**: Start by forking the project repository to your github account.
+
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
    git clone https://github.com/GabryeleSantoro/formulaone
@@ -1067,28 +1028,6 @@ npm test
 7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
 8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 </details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/GabryeleSantoro/formulaone/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=GabryeleSantoro/formulaone">
-   </a>
-</p>
-</details>
-
----
-
-## License
-
-Formulaone is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-## Acknowledgments
-
-- Credit `contributors`, `inspiration`, `references`, etc.
 
 <div align="right">
 
