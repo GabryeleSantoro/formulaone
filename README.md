@@ -48,17 +48,15 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
 ## Overview
 
-
+FormulaOne is a full-stack web application designed to visualize, manage, and analyze data from the Formula 1 World Championship. Built with Next.js, React, TypeScript, and MongoDB, the platform offers a modern, responsive interface that allows users to explore standings, race results, driver and constructor stats, qualifying sessions, and sprint races — both historical and real-time.
 
 ---
 
