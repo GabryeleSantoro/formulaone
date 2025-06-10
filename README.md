@@ -1001,7 +1001,6 @@ npm run build
 ## Contributing
 
 - **🐛 [Report Issues](https://github.com/GabryeleSantoro/formulaone/issues)**: Submit bugs found or log feature requests for the `formulaone` project.
-- **💡 [Submit Pull Requests](https://github.com/GabryeleSantoro/formulaone/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
