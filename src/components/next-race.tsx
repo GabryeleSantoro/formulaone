@@ -102,8 +102,7 @@ export default function NextRaceCard() {
         )}
 
         {total > 0 ? (
-          <div className="flex flex-col items-center justify-center gap-2 mt-6">
-            <Clock className="h-8 w-8 text-green-500" />
+          <div className="flex flex-col items-center justify-center gap-2 mt-6 p-4 rounded-sm bg-green-50">
             <p className="text-center text-green-600 font-semibold text-lg gap-1">
               Race starts in:
               <span className="ml-2 inline-flex gap-2 font-mono text-xl">

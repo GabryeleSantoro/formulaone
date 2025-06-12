@@ -8,7 +8,7 @@ import F1CalendarCard from "@/components/calendar-card";
 
 export default function Dashboard() {
   return (
-    <div className="flex flex-col min-h-screen p-4 md:p-6 gap-6">
+    <div className="flex flex-col min-h-screen p-4 md:p-6 gap-6 mx-auto">
       <header className="flex flex-col">
         <h1 className="text-4xl font-bold">Dashboard</h1>
         <p className="text-lg text-gray-600">

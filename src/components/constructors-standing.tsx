@@ -51,12 +51,12 @@ export default function ConstructorStandingsCard() {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-2 text-sm">
-        {standings.slice(0, 10).map((team) => (
+        {standings.slice(0, 10).map((team, index) => (
           <div key={team.position} className="flex justify-between">
-            <span className="flex items-center gap-2 text-gray-800 dark:text-white">
+            <span className={`flex items-center gap-2 text-gray-800 dark:text-white ${index === 0 ? 'font-bold' : ''}`}>
               {team.position}. {team.Constructor.name}
             </span>
-            <span className="text-gray-800 dark:text-white">
+            <span className={`text-gray-800 dark:text-white ${index === 0 ? 'font-bold' : ''}`}>
               {team.points} pts
             </span>
           </div>

@@ -153,7 +153,7 @@ export default async function Layout({
             </PopoverContent>
           </Popover>
 
-          <div className="flex items-center hidden">
+          <div className="flex items-center lg:hidden">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <span></span>
             </div>

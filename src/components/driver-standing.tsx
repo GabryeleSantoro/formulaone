@@ -54,13 +54,13 @@ export default function DriverStandingsCard() {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-2 text-sm">
-        {standings.slice(0, 10).map((driver) => (
+        {standings.slice(0, 10).map((driver, index) => (
           <div key={driver.position} className="flex justify-between">
-            <span className="text-gray-800 dark:text-white">
+            <span className={`text-gray-800 dark:text-white ${index === 0 ? 'font-bold' : ''}`}>
               {driver.position}. {driver.Driver.givenName}{" "}
               {driver.Driver.familyName} ({driver.Constructors[0]?.name})
             </span>
-            <span className="text-gray-800 dark:text-white">
+            <span className={`text-gray-800 dark:text-white ${index === 0 ? 'font-bold' : ''}`}>
               {driver.points} pts
             </span>
           </div>
